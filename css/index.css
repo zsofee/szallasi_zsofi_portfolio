@@ -1,0 +1,256 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+    
+
+}
+
+header
+{
+    margin: 0px;
+    background-color: transparent;    
+}
+body
+{
+    margin: 0px;
+    background-color: white;
+    resize: horizontal; 
+    overflow: auto;
+}
+footer
+{
+    margin: 0px;
+    margin-top:100px;
+    margin-bottom: 0px;
+    border-radius: 80px;
+    background-color:#e0d6ce;
+    padding-top: 10px;
+    text-align: center !important;
+     
+}
+
+.logo
+{
+    background: transparent;
+    max-width: 10%;
+    height: auto;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding-top: 10px;
+    
+    
+}
+
+h1,h2 
+{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.2em;
+    
+}
+p, blockquote
+{
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+ul
+{
+    list-style-type: none;
+    list-style: none;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.loremkep
+{
+    border-radius: 10px;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kapcsolat-hatter
+{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    font-weight: normal;
+}
+.oneletrajz
+{
+    float: left;
+    max-width: 50%;
+    margin-right: 20px;
+}
+.nyelv
+{
+    max-width: 20%;
+    float: left;     
+}
+.kep
+{
+    vertical-align: text-top;
+    float: right;
+    max-width: 30%;
+    margin: 25px;
+}
+.tan
+{
+    max-width: 30%;
+    float: left;
+    text-decoration-line: underline;
+    margin-left: 30px;
+}
+.nyel
+{
+    max-width: 30%;
+    float: left;
+    text-decoration-line: underline;
+     margin-left: 100px;
+    margin-bottom: 5px;
+}
+
+
+img{
+    border-radius: 20px;
+}
+
+.column 
+{
+    float: left;
+    width: 50%;
+    padding: 120px;
+
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+
+.lori
+{
+    
+    text-align: center;
+}
+
+.kapcs-p
+{
+    padding: 1px;
+
+}
+.kep0
+{
+    border-radius: 10px;
+    max-width: 40%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.lapok
+{
+    height: 80px;
+    text-size-adjust: 20px;
+    vertical-align: middle;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.button1
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 24%;
+    color: whitesmoke;
+    transition-duration: 500ms;
+    list-style-type: none;
+    font-size: 24px;
+}
+.button1:hover
+{
+    background-color: #e0d6ce;
+    color: whitesmoke;
+}
+.button2
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 24%;
+    color: whitesmoke;
+    transition-duration: 500ms;
+    font-size: 24px;
+    list-style-type: none;
+}
+.button2:hover
+{
+    background-color: #e0d6ce;
+    color: whitesmoke;
+}
+.button3
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 24%;
+    text-decoration-color: whitesmoke;
+    transition-duration: 500ms;
+    font-size: 24px;
+    list-style-type: none;
+}
+.button3:hover
+{
+    background-color: #e0d6ce;
+    color: whitesmoke;
+}
+.button4
+{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    width: 24%;
+    color: whitesmoke;
+    transition-duration: 500ms;
+    font-size: 24px;
+    list-style-type: none;
+}
+.button4:hover
+{
+    background-color: #e0d6ce;
+    color: whitesmoke;
+}
+
+.tervek {
+   padding-top:20px;
+   text-align: center; 
+}
